@@ -986,7 +986,11 @@
   .pm-related{grid-column:1/-1;grid-row:3;flex:0 0 100%;width:100%;clear:both;background:var(--escuro);}
   .pm-related-card{background:var(--cinza-card);}
   @media (max-width:780px){.pm-related-grid{grid-template-columns:repeat(2,minmax(0,1fr));}.pm-related-card img{height:125px;}.pm-related{padding-top:1.7rem;}.pm-thumb{width:48px;height:48px;}.pm-media{gap:.65rem;padding:1rem;}}
-</style>
+  @media (max-width:780px){
+    .pm-info{grid-column:1;grid-row:1;order:-1;}
+    .pm-left-column{grid-column:1;grid-row:2;order:0;}
+    .pm-body{gap:1.25rem;}
+  }</style>
 </head>
 <body>
 
